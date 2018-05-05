@@ -16,6 +16,7 @@ import com.example.demo.Employee;
 @RequestMapping("/employee")
 public class EmployeeController {
 
+    // repo name
     @Autowired
     private EmployeeRepository employeeData;
 
